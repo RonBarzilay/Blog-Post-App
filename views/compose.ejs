@@ -1,0 +1,31 @@
+<%- include("partials/header") -%>
+
+<div class="container">
+    <h1>Compose</h1>
+    <form class="" action="/compose" method="post">
+        <!-- form-group seperates each label and input to its own group -->
+        <div class="form-group">
+            <label for="PostTitle"><strong>Title</strong></label>
+            <input class="form-control" type="text" name="PostTitle" id="PostTitle" />
+        </div>
+
+        <div class="form-group">
+            <label for="PostBody"><strong>Post</strong></label>
+            <textarea
+                class="form-control"
+                type="text"
+                name="PostBody"
+                id="PostBody"
+                placeholder="What's on your mind Today..."
+                rows="5"
+                cols="30"
+            ></textarea>
+        </div>
+
+        <div class="container-fluid">
+            <button class="btn btn-primary" type="submit">Publish</button>
+        </div>
+    </form>
+</div>
+
+<%- include("partials/footer") -%>

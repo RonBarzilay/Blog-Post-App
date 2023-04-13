@@ -2,6 +2,20 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+.post-container{
+    margin: 4rem 5rem;
+}
+
+/* .limit-paragraph{
+    white-space: nowrap;
+    /* Hide content after max-width */
+    overflow: hidden;
+    /* ... */
+    text-overflow: ellipsis;
+    max-width: 100ch;
+} */
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
